@@ -610,6 +610,15 @@ section.contact h1 {
 	color: #fff
 }
 
+section.contact .dd34 {
+	width: 100%;
+}
+@media screen and (min-width:768px) {
+	section.contact .dd34 {
+		width: 75%;
+	}
+}
+
 section.contact form {
 	padding: 30px 0px 50px
 }
