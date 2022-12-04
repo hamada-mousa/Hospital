@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+	<meta charset=utf-8>
+	<meta name=viewport
+		content="width=device-width, minimum-scale=1 , initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi">
+	<meta http-equiv=X-UA-Compatible content="IE=edge">
+	<meta name=description content=" Hospital Website ">
+	<meta name=keywords content="html , css , js , sass , jquery , bootsrap">
+	<title> Hospital </title>
+	<link rel=icon href=Img/Gallery/Ph1.jpg>
+	<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css />
+	<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css />
+	<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css />
+	<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.css />
+	<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css />
+	<link rel=stylesheet type=text/css href=" Css/Hospital.css " media=all>
+	<!--[if lt IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js></script><![endif]-->
+	<style>
+		body {
+			overflow-x: hidden !important;
+		}
+
+		#body {
+			opacity: 0
+		}
+	</style>
+</head>
+
+<body>
+	<div id=cover style="font-size:calc(1.3rem + .6vw);font-family:Verdana,Geneva,Tahoma,sans-serif;z-index:99999999">
+		<span class="spinner-grow text-light me-2" role=status><span class=visually-hidden
+				style=opacity:.000000000001>Loading...</span></span>Loading Please Wait...
+	</div>
+	<div id=body>
+		<nav id=Naav class="navbar navbar-expand-md fixed-top navbar-dark">
+			<div class=container><a href=# class="navbar-brand h2 m-0"><span>H</span>ealth<span>C</span>are.</a><button
+					class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#link-of-nav
+					aria-label="Toggle Navigation" aria-controls=link-of-nav aria-expanded=false><span
+						class=navbar-toggler-icon></span></button>
+				<div class="collapse navbar-collapse" id=link-of-nav>
+					<ul class="navbar-nav ms-auto" id=main-ul>
+						<li class=nav-item><a href=#home class=nav-link>home</a></li>
+						<li class=nav-item><a href=#about class=nav-link>about</a></li>
+						<li class=nav-item><a href=#facility class=nav-link>facility</a></li>
+						<li class=nav-item><a href=#review class=nav-link>review</a></li>
+						<li class=nav-item><a href=#contact class=nav-link>contact</a></li>
+						<li class=nav-item><a href=#post class=nav-link>post</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class=container-of-body style="width:100%;overflow-x:hidden">
+			<header id=home>
+				<div class=container>
+					<div class="row text-center align-items-center align-content-center text-md-left">
+						<section class="col-12 col-md-6 pe-md-5" data-aos=zoom-in><img src=Img/Doctors-header-section.svg
+								alt="big icon contains three doctor" class=img-fluid>
+						</section>
+						<article class="col-12 col-md-6 text-md-start text-center content pt-md-0 pt-5" data-aos=fade-left>
+							<h1><span>Stay</span> Safe, <span>Stay</span> Healthy.</h1>
+							<h2>Caring For Your Life</h2><button class="btn btn-primary mt-4">Learn More</button>
+						</article>
+					</div>
+				</div>
+			</header>
+			<section id=about class=about>
+				<div class=container>
+					<div class="row align-items-center align-content-center text-md-left">
+						<article class="col-md-6 col-12 text-md-start" data-aos=fade-right>
+							<div class="text-center text-md-start box">
+								<div class="row align-items-start">
+									<div class="col-12 col-md-2 text-center fs-1"><i class="fas fa-ambulance"></i></div>
+									<h3 class="col-12 col-md-10 mb-0">ambulance services</h3>
+								</div>
+								<div class=row>
+									<p class="col-12 col-md-10 ms-auto mb-0">Lorem ipsum dolor sit, amet consectetur
+										adipisicing elit. Provident omnis reprehenderit laboriosam minima maiores
+										exercitationem eveniet, unde asperiores!</p>
+								</div>
+							</div>
+							<div class="text-center text-md-start box">
+								<div class="row align-items-start">
+									<div class="col-12 col-md-2 text-center fs-1"><i class="fas fa-procedures"></i>
+									</div>
+									<h3 class="col-12 col-md-10 mb-0">emergency rooms</h3>
+								</div>
+								<div class=row>
+									<p class="col-12 col-md-10 ms-auto mb-0">Lorem ipsum dolor sit, amet consectetur
+										adipisicing elit. Provident omnis reprehenderit laboriosam minima maiores
+										exercitationem eveniet, unde asperiores!</p>
+								</div>
+							</div>
+							<div class="text-center text-md-start box">
+								<div class="row align-items-start">
+									<div class="col-12 col-md-2 text-center fs-1"><i class="fas fa-stethoscope"></i>
+									</div>
+									<h3 class="col-12 col-md-10 mb-0">free check-ups</h3>
+								</div>
+								<div class=row>
+									<p class="col-12 col-md-10 ms-auto mb-0">Lorem ipsum dolor sit, amet consectetur
+										adipisicing elit. Provident omnis reprehenderit laboriosam minima maiores
+										exercitationem eveniet, unde asperiores!</p>
+								</div>
+							</div>
+						</article>
+						<section class="d-md-block d-none col-md-6" data-aos=fade-left><img src=Img/Doctor-about-section.png
+								alt="photo for smiling doctor " class=img-fluid>
+						</section>
+					</div>
+				</div>
+			</section>
+			<section id=facility class=facility>
+				<div class=container>
+					<h1 class="text-center pt-3"><span>O</span>ur <span>F</span>acilities</h1>
+					<div class="gallery d-flex flex-wrap mt-5 align-items-center align-content-center justify-content-center">
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph1.jpg><img src=Img/Gallery/Ph1.jpg
+									alt="Doctor Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph3.jpg><img src=Img/Gallery/Ph3.jpg
+									alt="Doctor Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph12.jpg><img src=Img/Gallery/Ph12.jpg
+									alt="Doctors Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph2.jpg><img src=Img/Gallery/Ph2.jpg
+									alt="Doctor Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph7.jpg><img src=Img/Gallery/Ph7.jpg
+									alt="Doctors Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph10.jpg><img src=Img/Gallery/Ph10.jpg
+									alt="Doctors Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph11.jpg><img src=Img/Gallery/Ph11.jpg
+									alt="Doctor Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph6.jpg><img src=Img/Gallery/Ph6.jpg
+									alt="Doctor Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph5.jpg><img src=Img/Gallery/Ph5.jpg
+									alt="Doctor Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph4.jpg><img src=Img/Gallery/Ph4.jpg
+									alt="Doctors Photo"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph8.jpg><img src=Img/Gallery/Ph8.jpg
+									alt="Photo For Room In Hospital"></a></div>
+						<div class=box data-aos=zoom-in><a href=Img/Gallery/Ph9.jpg><img src=Img/Gallery/Ph9.jpg
+									alt="Doctors Photo"></a></div>
+					</div>
+				</div>
+			</section>
+			<section id=review class=review>
+				<div class=container>
+					<h1 class="text-center pt-3 mb-5"><span>p</span>eople's <span>R</span>eview</h1>
+					<div class="comment-box-container d-flex flex-wrap justify-content-center">
+						<div class=box data-aos=fade-right>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, temporibus suscipit
+								dolores ratione odio debitis.</p>
+							<h5>Razan Alnegar</h5><span>15/Feb/2018</span><img src=Img/People/preson3.jpg alt="Razan Alnegar Photo">
+						</div>
+						<div class=box data-aos=fade-up>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, temporibus suscipit
+								dolores ratione odio debitis.</p>
+							<h5>Mahmoud Mousa</h5><span>3/june/2021</span><img src=Img/People/person2.jpg alt="Mahmoud Mousa Photo">
+						</div>
+						<div class=box data-aos=fade-left>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, temporibus suscipit
+								dolores ratione odio debitis.</p>
+							<h5>Lama Ahmad</h5><span>25/Agu/2020</span><img src=Img/People/person1.jpg alt="Lama Ahmad Photo">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class=information id=information>
+				<div class=container>
+					<div class="box-container d-flex flex-wrap justify-content-center">
+						<div class=box data-aos=fade-up><i class="fas fa-hospital"></i><span>120+</span>
+							<h5>hospital</h5>
+						</div>
+						<div class=box data-aos=fade-up><i class="fas fa-smile"></i><span>1200+</span>
+							<h5>happy pateints</h5>
+						</div>
+						<div class=box data-aos=fade-up><i class="fas fa-users"></i><span>100+</span>
+							<h5>staff</h5>
+						</div>
+						<div class=box data-aos=fade-up><i class="fas fa-procedures"></i><span>130+</span>
+							<h5>bed facilities</h5>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id=contact class=contact>
+				<div class=container>
+					<h1 class="text-center pt-3 mb-md-5 mb-2"><span>m</span>ake <span>a</span>n <span>a</span>ppointment
+					</h1>
+					<p data-aos="zoom-in-up" class=" text-center text-white w-75 m-auto">
+						To request a landing page similar to this page, <span class="text-danger fw-bold">please fill out the
+							form</span> and I will reply to you as soon as possible, or <span class="text-danger fw-bold">you can talk
+							to
+							me via the social media icons</span> at the bottom of the site.
+					</p>
+					<form class="row g-3 needs-validation flex-wrap d-flex align-items-center" novalidate
+						action="https://formsubmit.co/fullstack.mousa@gmail.com" method="POST" autocomplete=off data-aos=flip-down>
+						<div class="col-md-6 col-12"><label for=InFullName class="visually-hidden form-label">Full
+								Name</label><input type=text class=form-control id=InFullName required placeholder="Full Name" name="Full Name"
+								minlength=10>
+							<div class=valid-feedback>Name Is Set</div>
+							<div class=invalid-feedback>Please Write Your Full Name</div>
+						</div>
+						<div class="col-md-6 col-12"><label for=InPhone class="visually-hidden form-label">Full
+								Name</label><input type=tel class=form-control id=InPhone required placeholder="Phone Number" length=10
+								pattern=[0][9][6-9]{1}[0-9]{7} name=Phone>
+							<div class=invalid-feedback>Please Write A Valid Phone Number</div>
+							<div class=valid-feedback>Looks Good Number</div>
+						</div>
+						<div class="col-md-6 col-12"><label for=InEmail class="visually-hidden form-label">Your
+								Email</label><input type=email name=Email class=form-control id=InEmail required
+								placeholder="Your Email">
+							<div class=valid-feedback>Looks Good Email</div>
+							<div class=invalid-feedback>Please Write A Valid Email</div>
+						</div>
+						<div class="col-md-6 col-12"><label for=Appointments-Select class="form-label visually-hidden">make an
+								appointments</label><select name=SelectInput id=Appointments-Select class=form-select required>
+								<option value selected disabled class=text-muted>Make An Appointments</option>
+								<option value="09-11 Am">09-11 Am</option>
+								<option value="12-03 Pm">12-03 Pm</option>
+								<option value="03-06 Pm">03-06 Pm</option>
+								<option value="09-11 Pm">09-11 Pm</option>
+							</select>
+							<div class=invalid-feedback>You Must Select An Appointment</div>
+							<div class=valid-feedback>Time of Appointment is set</div>
+						</div>
+						<div class=col-12><label for=Your-Massage class="form-label visually-hidden">Message ( Optional
+								)</label><textarea name=textarea id=Your-Massage placeholder="Message ( Optional )"
+								class="form-control w-100" style=height:200px;resize:none></textarea></div>
+						<div class="col-md-4 col-12 mt-4 text-md-start text-center">
+
+							<input type="hidden" name="_captcha" value="false" />
+							<input type="text" name="_honey" class="d-none" />
+							<input type="hidden" name="_subject" value="New Email From My Website Hospital Landing Page" />
+							<input type="hidden" name="_next" value="https://hamada-mousa.github.io/Hospital/thanks.html" />
+
+							<button class="btn btn-primary" type=submit>Make Appointment</button>
+						</div>
+						<div class="website col-md-8 ms-md-auto mt-5 mt-md-auto text-center text-md-end"><a
+								href="https://wa.me/963950556805"><img
+									src="https://img.icons8.com/color/48/000000/telegram-app--v2.png" /></a><a
+								href="https://wa.me/963950556805"><svg xmlns=http://www.w3.org/2000/svg x=0px y=0px width=43 height=43
+									viewBox="0 0 172 172" style=fill:#000;transform:translateY(-2px)>
+									<g fill=none fill-rule=nonzero stroke=none stroke-width=1 stroke-linecap=butt stroke-linejoin=miter
+										stroke-miterlimit=10 stroke-dasharray stroke-dashoffset=0 font-family=none font-weight=none
+										font-size=none text-anchor=none style=mix-blend-mode:normal>
+										<path d=M0,172v-172h172v172z fill=none></path>
+										<g fill=#2ecc71>
+											<path
+												d="M86,2.6875c-45.95625,0 -83.3125,37.35625 -83.3125,83.3125c0,14.10938 3.4927,27.95053 10.34583,40.17865l-7.1203,26.06927c-1.20938,4.16563 -0.00157,8.4651 3.08905,11.55573c3.09062,3.09062 7.39272,4.30052 11.55835,3.22552l27.1427,-7.12292c11.825,6.18125 24.99322,9.40625 38.43072,9.40625c45.95625,0 83.3125,-37.35625 83.3125,-83.3125c0,-22.30625 -8.59948,-43.13542 -24.32135,-58.8573c-15.85625,-15.72188 -36.81875,-24.4552 -59.125,-24.4552zM86,10.75c20.15625,0 39.1026,7.79428 53.21198,22.03803c14.24375,14.24375 22.1724,33.1901 22.03802,53.21197c0,41.52188 -33.72812,75.25 -75.25,75.25c-12.49688,0 -24.9948,-3.22605 -36.01355,-9.13855c-0.5375,-0.26875 -1.20728,-0.5354 -1.87915,-0.5354c-0.40312,0 -0.67292,-0.00052 -1.07605,0.13385l-28.62292,7.52448c-2.01562,0.5375 -3.35728,-0.53855 -3.89478,-1.07605c-0.5375,-0.5375 -1.61355,-1.87915 -1.07605,-3.89478l7.52447,-27.68335c0.26875,-1.075 0.13595,-2.14843 -0.40155,-3.08905c-6.45,-11.2875 -9.81042,-24.3224 -9.81042,-37.49115c0,-41.52187 33.72813,-75.25 75.25,-75.25zM86,22.84375c-34.80312,0 -63.15625,28.21875 -63.15625,63.15625c0,11.15313 2.9573,22.0375 8.46667,31.57813c2.15,3.7625 2.68645,8.19583 1.61145,12.36145l-3.8974,14.10938l15.05157,-3.89478c1.34375,-0.40312 2.6875,-0.53802 4.03125,-0.53802c2.6875,0 5.37395,0.67188 7.65833,2.01563c9.27187,4.8375 19.61875,7.52448 30.23438,7.52448c34.80313,0 63.15625,-28.35312 63.15625,-63.15625c0,-16.93125 -6.58542,-32.78855 -18.5448,-44.74792c-11.825,-11.825 -27.6802,-18.40833 -44.61145,-18.40833zM57.9151,49.31458h3.76355c1.47812,0 2.95468,0.13437 4.4328,3.35938c1.74687,3.89687 5.64375,13.70677 6.04688,14.6474c0.5375,0.94062 0.80835,2.14948 0.13647,3.49323c-0.67187,1.34375 -0.94062,2.15 -2.01562,3.35938c-0.94062,1.20937 -2.15157,2.55522 -2.95782,3.49585c-0.94062,0.94063 -2.0151,2.01563 -0.80572,4.03125c1.20937,2.01563 5.1052,8.46458 11.0177,13.7052c7.525,6.71875 13.97552,8.8698 15.99115,9.81042c2.01563,0.94063 3.0922,0.80573 4.30157,-0.53802c1.20938,-1.34375 4.97083,-5.77918 6.31458,-7.7948c1.34375,-2.01562 2.68855,-1.61145 4.43542,-0.93957c1.88125,0.67188 11.55573,5.5078 13.57135,6.44843c2.01563,0.94062 3.3578,1.4797 3.76093,2.28595c0.5375,1.075 0.53907,4.97082 -1.07343,9.67395c-1.6125,4.56875 -9.675,9.1375 -13.4375,9.40625c-3.62813,0.26875 -6.98907,1.61355 -23.78595,-4.97082c-20.15625,-7.92813 -32.92083,-28.62293 -33.86145,-29.96668c-0.94063,-1.34375 -8.0625,-10.74843 -8.0625,-20.5578c0,-9.80937 5.1052,-14.51355 6.98645,-16.52917c1.88125,-2.01562 3.8974,-2.4198 5.24115,-2.4198z">
+											</path>
+										</g>
+									</g>
+								</svg></a><a href="https://wa.me/963950556805"><img
+									src="https://img.icons8.com/fluent/48/000000/facebook-new.png" /></a><a
+								href="https://wa.me/963950556805"><img
+									src="https://img.icons8.com/fluent/48/000000/instagram-new.png" /></a><a
+								href="https://wa.me/963950556805"><img
+									src="https://img.icons8.com/color/48/000000/twitter-circled--v4.png" /></a></div>
+					</form>
+			</section>
+			<section id=post class=post>
+				<div class=container>
+					<h1 class="text-center pt-3 mb-5"><span>o</span>ur <span>p</span>osts</h1>
+					<div class="cards-container d-flex flex-wrap justify-content-center">
+						<div class=card data-aos=flip-right>
+							<div class=card-img-top><img
+									src="Img/p0.jpg"></div>
+							<div class=card-body><span class=card-text>Jan 5, 2021</span>
+								<h5 class=card-title>Post Title One</h5>
+								<p class=card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+									suscipit sequi nam obcaecati aliquid eum numquam, omnis porro dolorem inventore,
+									quis labore vero</p><button class="btn btn-primary">Read More</button>
+							</div>
+						</div>
+						<div class=card data-aos=zoom-out-up>
+							<div class=card-img-top><img
+									src="Img/p1.jpg">
+							</div>
+							<div class=card-body><span class=card-text>Jan 5, 2021</span>
+								<h5 class=card-title>Post Title Two</h5>
+								<p class=card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+									suscipit sequi nam obcaecati aliquid eum numquam, omnis porro dolorem inventore,
+									quis labore vero </p><button class="btn btn-primary">Read More</button>
+							</div>
+						</div>
+						<div class=card data-aos=flip-left>
+							<div class=card-img-top><img
+									src="Img/p2.jpg"
+									alt="Doctors Photo"></div>
+							<div class=card-body><span class=card-text>Jan 5, 2021</span>
+								<h5 class=card-title>Post Title Three</h5>
+								<p class=card-text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+									suscipit sequi nam obcaecati aliquid eum numquam, omnis porro dolorem inventore,
+									quis labore vero</p><button class="btn btn-primary">Read More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer pt-5" id=footer style="overflow-x:hidden;">
+				<div class=container>
+					<div class="footer-container d-flex flex-wrap row">
+						<div class="col-md-4 col-12 text-center text-md-start" data-aos=fade-up><a href=#>
+								<h2 class><span>H</span>ealth<span>C</span>are.</h2>
+							</a>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil perspiciatis est
+								cum asperiores nisi dolorem eius quaerat distinctio porro earum voluptate, magnam
+								accusantium laudantium, aspernatur quidem molestiae pariatur facilis.</p>
+						</div>
+						<div class="col-md-4 col-6 text-center links" data-aos=fade-up>
+							<h2>Links</h2><a href=#home>home</a><a href=#about>about</a><a href=#facility>facility</a><a
+								href=#review>review</a><a href=#contact>contact</a><a href=#post>post</a>
+						</div>
+						<div class="col-md-4 col-6 text-center" data-aos=fade-up>
+							<h2>Share</h2><a href=https://wa.me/963950556805>FaceBook</a><a
+								href=https://wa.me/963950556805>Twitter</a><a href=https://wa.me/963950556805>Instegram</a><a
+								href=https://wa.me/963950556805>GetHub</a>
+						</div>
+						<hr>
+						<h5 class="text-center text-white my-3 h5">Created By <a href=https://wa.me/963950556805><span>H</span>amada
+								<span>M</span>ousa</a> | All Right Reserved</h5>
+					</div>
+				</div>
+			</footer>
+			<a id=up-arrow class=up-arrow href=#home><svg xmlns=http://www.w3.org/2000/svg x=0px y=0px viewBox="0 0 172 172"
+					style=fill:#000>
+					<defs>
+						<linearGradient x1=86 y1=-1.14308 x2=86 y2=162.48267 gradientUnits=userSpaceOnUse
+							id=color-1_YXkVJtYoszKe_gr1>
+							<stop offset=0 stop-color=#0d6efd></stop>
+							<stop offset=1 stop-color=#0a85d9></stop>
+						</linearGradient>
+					</defs>
+					<g transform>
+						<g fill=none fill-rule=nonzero stroke=none stroke-width=1 stroke-linecap=butt stroke-linejoin=miter
+							stroke-miterlimit=10 stroke-dasharray stroke-dashoffset=0 font-family=none font-weight=none font-size=none
+							text-anchor=none style=mix-blend-mode:normal>
+							<path d=M0,172v-172h172v172z fill=none></path>
+							<path d fill=none></path>
+							<path d fill=none></path>
+							<g>
+								<circle cx=24 cy=24 transform=scale(3.58333,3.58333) r=20 fill=url(#color-1_YXkVJtYoszKe_gr1)></circle>
+								<path
+									d="M78.57892,132.58333c-3.80908,0 -6.91225,-3.096 -6.91225,-6.90508v-50.36017h-11.98267c-2.451,0 -4.61533,-1.47275 -5.51833,-3.74817c-0.89942,-2.27542 -0.32967,-4.83033 1.45125,-6.50733l25.198,-23.68583c1.40825,-1.32583 3.25008,-2.05325 5.18508,-2.05325c1.935,0 3.77683,0.72742 5.18508,2.05325l25.19442,23.68583c1.7845,1.68058 2.35425,4.2355 1.45483,6.50733c-0.903,2.27542 -3.07092,3.74817 -5.52192,3.74817h-11.97908v50.36375c0,3.8055 -3.09958,6.9015 -6.90867,6.9015z"
+									fill=#000000 opacity=0.05></path>
+								<path
+									d="M78.57892,130.79167c-2.82367,0 -5.117,-2.29333 -5.117,-5.11342v-52.15183h-13.77433c-1.70925,0 -3.22142,-1.02842 -3.85208,-2.61583c-0.63067,-1.58742 -0.22933,-3.36833 1.01408,-4.54367l25.19442,-23.68583c1.075,-1.0105 2.47967,-1.5695 3.956,-1.5695c1.47633,0 2.88458,0.55542 3.95958,1.5695l25.19442,23.68583c1.247,1.17175 1.64475,2.95267 1.01408,4.54367c-0.63067,1.591 -2.14283,2.61583 -3.85567,2.61583h-13.77075v52.15542c0,2.82008 -2.29692,5.11342 -5.117,5.11342h-14.84575z"
+									fill=#000000 opacity=0.07></path>
+								<path
+									d="M83.2695,43.98542l-25.19442,23.68583c-1.55158,1.45842 -0.51958,4.0635 1.6125,4.0635h15.566v53.94708c0,1.83467 1.49067,3.32175 3.32533,3.32175h14.84933c1.83825,0 3.32533,-1.48708 3.32533,-3.32175v-53.95067h15.56242c2.13208,0 3.16408,-2.60508 1.6125,-4.0635l-25.19442,-23.68583c-1.53725,-1.4405 -3.93092,-1.4405 -5.46458,0.00358z"
+									fill=#ffffff></path>
+							</g>
+						</g>
+					</g>
+				</svg></a>
+		</div>
+	</div>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js></script>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js></script>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js></script>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js></script>
+	<script src=https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js></script>
+	<script src=https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js></script>
+	<script type=text/javascript src=" Js/Hospital.js "></script>
+	<script>
+		$(document).ready(function () { $("#up-arrow").click(function () { $("body , html").animate({ scrollTop: 0 }, 100) }) })
+	</script>
+</body>
+
+</html>
