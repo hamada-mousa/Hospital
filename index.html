@@ -195,14 +195,14 @@
 					<form class="row g-3 needs-validation flex-wrap d-flex align-items-center" novalidate
 						action="https://formsubmit.co/fullstack.mousa@gmail.com" method="POST" autocomplete=off data-aos=flip-down>
 						<div class="col-md-6 col-12"><label for=InFullName class="visually-hidden form-label">Full
-								Name</label><input type=text class=form-control id=InFullName required placeholder="Full Name" name="Full Name"
+								Name</label><input type=text class=form-control id=InFullName required placeholder="Full Name" name="Full_Name"
 								minlength=10>
 							<div class=valid-feedback>Name Is Set</div>
 							<div class=invalid-feedback>Please Write Your Full Name</div>
 						</div>
 						<div class="col-md-6 col-12"><label for=InPhone class="visually-hidden form-label">Full
-								Name</label><input type=tel class=form-control id=InPhone required placeholder="Phone Number" length=10
-								pattern=[0][9][6-9]{1}[0-9]{7} name=Phone>
+								Name</label><input type=tel class=form-control id=InPhone required placeholder="Phone_Number" length=10
+								oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" name=Phone>
 							<div class=invalid-feedback>Please Write A Valid Phone Number</div>
 							<div class=valid-feedback>Looks Good Number</div>
 						</div>
